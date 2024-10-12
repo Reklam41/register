@@ -1,10 +1,24 @@
+main {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
 table,
 th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
+  empty-cells: show;
+  padding: 5px;
 }
 
 .header {
   background-color: rgb(31, 165, 218);
+}
+
+.thokozani {
+  background-color: rgb(168, 168, 168);
+  color: gray;
 }
