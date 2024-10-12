@@ -10,7 +10,7 @@ main {
   /*background-color: tomato;*/
   display: grid;
   grid-template-rows: 25% 75%;
-  gap: 10px;
+  gap: 29px;
 }
 
 table,
@@ -29,4 +29,12 @@ td {
 .thokozani {
   background-color: rgb(168, 168, 168);
   color: gray;
+}
+
+.low-attendance {
+  color: red;
+}
+
+.average {
+  color: blue;
 }
