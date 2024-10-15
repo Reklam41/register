@@ -1,18 +1,32 @@
 body {
-  /*background-color: rgb(201, 0, 0);*/
-  font-family: "calibri", sans-serif;
   height: 100vh;
   display: grid;
   align-items: center;
   justify-content: center;
+  font-family: "calibri", sans-serif;
   font-size: 1.2rem;
 }
 
 main {
-  /*background-color: tomato;*/
   display: grid;
   grid-template-rows: 25% 75%;
   gap: 29px;
+}
+
+img {
+  width: 50px;
+}
+
+.sub-heading {
+  font-weight: normal;
+}
+
+.sem {
+  height: 26px;
+}
+
+.head {
+  font-weight: normal;
 }
 
 table,
@@ -20,55 +34,11 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-}
-
-th img {
-  padding: 0px 10px;
-}
-
-.course,
-.lecturer,
-.signature {
-  background-color: #57a3d7;
-}
-
-.course {
-  vertical-align: top;
-  text-align: left;
-}
-
-.lecturer {
-  vertical-align: top;
-  text-align: left;
-}
-
-.signature {
-  vertical-align: top;
-  text-align: left;
+  padding: 5px;
 }
 
 .header {
-  background-color: #57a3d7;
-  vertical-align: top;
-}
-
-.sub-heading {
-  font-weight: normal;
-  position: relative;
-  top: 20px;
-  left: 10px;
-}
-
-.heading {
-  padding: 10px;
-}
-
-.wk {
-  background-color: #57a3d7;
-}
-
-.no {
-  background-color: #89caf7;
+  background-color: rgb(31, 165, 218);
 }
 
 .thokozani {
@@ -86,22 +56,28 @@ th img {
   font-weight: bold;
 }
 
-#day,
-#date,
-#time,
-#lp {
-  text-align: left;
-  vertical-align: top;
-}
-
 .top-block {
   height: 26px;
 }
 
-.pnu,
-.pn,
-.pm,
-.list,
-.ps {
-  text-align: left;
+.course,
+.lecturer,
+.signature {
+  background-color: #57a3d7;
+}
+
+.signature {
+  height: 50px;
+}
+
+.wk {
+  background-color: #57a3d7;
+}
+
+.no {
+  background-color: #89caf7;
+}
+
+.participant {
+  background-color: #5580a0;
 }
