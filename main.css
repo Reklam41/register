@@ -1,9 +1,11 @@
 body {
   /*background-color: rgb(201, 0, 0);*/
+  font-family: "calibri", sans-serif;
   height: 100vh;
   display: grid;
   align-items: center;
   justify-content: center;
+  font-size: 1.2rem;
 }
 
 main {
@@ -18,23 +20,88 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-  empty-cells: show;
-  padding: 5px;
+}
+
+th img {
+  padding: 0px 10px;
+}
+
+.course,
+.lecturer,
+.signature {
+  background-color: #57a3d7;
+}
+
+.course {
+  vertical-align: top;
+  text-align: left;
+}
+
+.lecturer {
+  vertical-align: top;
+  text-align: left;
+}
+
+.signature {
+  vertical-align: top;
+  text-align: left;
 }
 
 .header {
-  background-color: rgb(31, 165, 218);
+  background-color: #57a3d7;
+  vertical-align: top;
+}
+
+.sub-heading {
+  font-weight: normal;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.heading {
+  padding: 10px;
+}
+
+.wk {
+  background-color: #57a3d7;
+}
+
+.no {
+  background-color: #89caf7;
 }
 
 .thokozani {
-  background-color: rgb(168, 168, 168);
-  color: gray;
+  background-color: #bfc1bc;
+  color: grey;
 }
 
 .low-attendance {
   color: red;
+  font-weight: bold;
 }
 
 .average {
   color: blue;
+  font-weight: bold;
+}
+
+#day,
+#date,
+#time,
+#lp {
+  text-align: left;
+  vertical-align: top;
+}
+
+.top-block {
+  height: 26px;
+}
+
+.pnu,
+.pn,
+.pm,
+.list,
+.ps {
+  text-align: left;
 }
